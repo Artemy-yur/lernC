@@ -1,18 +1,28 @@
 #include <stdio.h>
+#include <string.h>
 
-int main()
+int main(void)
 {
+
+    int var;
+    var = 100;
     char ch;
+    double d1, d2, d3, d4;
+    char bibi[] = "Marke pigor";
+    d1 = 10.0f;
+    d2 = 5.5f;
+    d3 = 1e25;
+    d4 = 0.512f;
+    int age;
+    int size_float = sizeof(d3);
+    int size_char = sizeof(bibi);
 
     ch = 'd';
+    scanf("%d", &age);
+    // int "D"
+    printf("Ya pidors = %c, %d \n", ch, ch);
+    printf("Float %f %f %f %f \n", d1, d2, d3, d4);
+    printf("%d, %s, last check%d\n\nage:%d age", size_float, bibi, size_char, age);
 
-    unsigned byte;
-    byte = 100;
-    signed a;
-    a = byte;
-
-    printf("ch = %s, code %d", ch);
-
-    
     return 0;
 }

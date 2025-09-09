@@ -1,18 +1,15 @@
 {
   "version": "0.2.0",
   "configurations": [
-
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
-      "args": [
-        "gcc -std=c99"
-      ],
+      "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Artemy/Documents/удав.cpp",
-      "program": "c:/Users/Artemy/Documents/удав.cpp/build/Debug/outDebug",
+      "cwd": "c:/Users/Artemy/Documents/удав.cpp/build",
+      "program": "c:/Users/Artemy/Documents/удав.cpp/build/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
