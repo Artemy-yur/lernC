@@ -55,5 +55,30 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/untitled": true
+  },
+  "explorerExclude.backup": {},
+  "files.associations": {
+    "*.embeddedhtml": "html",
+    "*.go": "go",
+    "stdbool.h": "c",
+    "stdio.h": "c",
+    "string.h": "c",
+    "math.h": "c",
+    "corecrt_stdio_config.h": "c",
+    "time.h": "c",
+    "stdlib.h": "c",
+    "crtdefs.h": "c",
+    "malloc.h": "c",
+    "iostream": "cpp"
+  },
+  "editor.fontSize": 16
 }

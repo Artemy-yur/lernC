@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Artemy/Documents/удав.cpp/build",
-      "program": "c:/Users/Artemy/Documents/удав.cpp/build/build/Debug/outDebug",
+      "cwd": "c:/Users/Artemy/Documents/удав.cpp/build/Debug",
+      "program": "c:/Users/Artemy/Documents/удав.cpp/build/Debug/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

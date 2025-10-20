@@ -1,22 +1,39 @@
+#include <stdbool.h>
+#include <stdio.h>
+#include <string.h>
 
-int var;
-var = 100;
-char ch;
-double d1, d2, d3, d4;
-char bibi[] = "Marke pigor";
-d1 = 10.0f;
-d2 = 5.5f;
-d3 = 1e25;
-d4 = 0.512f;
-int age = getchar();
-int size_float = sizeof(d3);
-int size_char = sizeof(bibi);
+int main(void)
+{
 
-ch = 'd';
-// int "D"
+    short km, time;
+    short car_is;
+    char carname[] = "BMW M5 F90";
+    char carname1[] = "Audi a5";
+    char carname2[] = "Mersedes amg 63";
+    char maincar[50];
 
-printf("Ya pidors = %c, %d \n", ch, ch);
-printf("Float %f %f %f %f \n", d1, d2, d3, d4);
-printf("%d, %s, last check%d\n\nage: %d \n \n \n", size_float, bibi, size_char, age);
-putchar(age);
-return 0;
+    printf("\n1.%s\n2.%s\n3.%s\nshave the machine from 1 to 3:", carname, carname1, carname2);
+    scanf("%hd", &car_is);
+
+    if (car_is == 1)
+    {
+        strcpy(maincar, carname);
+    }
+    else if (car_is == 2)
+    {
+        strcpy(maincar, carname1);
+    }
+    else if (car_is == 3)
+    {
+        strcpy(maincar, carname2);
+    }
+    else
+    {
+        printf("There is no such thing");
+        return 0;
+    }
+
+    printf("You car %s: ", maincar);
+
+    return 0;
+}

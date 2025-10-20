@@ -1,0 +1,69 @@
+ИНФОРМАЦИЯ О САЙТЕ
+==================================================
+URL: https://www.google.com
+Домен: www.google.com
+Протокол: https
+Статус ответа: 200
+Кодировка: ISO-8859-1
+Размер контента: 20113 символов
+Сервер: gws
+
+ОСНОВНАЯ ИНФОРМАЦИЯ
+==============================
+Заголовок страницы: Google
+Описание: Поиск информации в интернете: веб страницы, картинки, видео и многое другое.
+Ключевые слова: Не указаны
+Автор: Не указан
+Мобильная адаптивность: ❌ Не настроена
+
+SEO ИНФОРМАЦИЯ
+====================
+Canonical URL: Не указан
+Favicon: Не найден
+Robots: noodp, 
+
+СТАТИСТИКА ЭЛЕМЕНТОВ
+=========================
+- Ссылок (a): 18
+- Изображений (img): 2
+- Заголовков (h1-h6): 0
+- Параграфов (p): 1
+- Форм (form): 1
+- Скриптов (script): 7
+- Таблиц (table): 1
+- Списков (ul, ol): 0
+
+ПРОВЕРКА БЕЗОПАСНОСТИ
+==================================================
+Оценка безопасности: 60/100
+
+Найденные уязвимости:
+❌ Отсутствует заголовок безопасности: Strict-Transport-Security
+❌ Отсутствует заголовок безопасности: X-Content-Type-Options
+❌ Отсутствует заголовок безопасности: Content-Security-Policy
+❌ Небезопасная HTTP ссылка: http://www.google.ru/history/optout?hl=ru
+❌ Небезопасная HTTP ссылка: http://www.google.ru/intl/ru/services/
+
+Заголовки безопасности:
+- Strict-Transport-Security: ❌
+- X-Frame-Options: ✅
+- X-Content-Type-Options: ❌
+- X-XSS-Protection: ✅
+- Content-Security-Policy: ❌
+
+ВСЕ HTTP ЗАГОЛОВКИ
+=========================
+Date: Thu, 16 Oct 2025 14:45:52 GMT
+Expires: -1
+Cache-Control: private, max-age=0
+Content-Type: text/html; charset=ISO-8859-1
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-ROa6L9kOmP_XIWnShs41-w' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+Accept-CH: Sec-CH-Prefers-Color-Scheme
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Content-Encoding: gzip
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: AEC=AaJma5u77cIu1WSRZU6z3u-OViguXfCdPj0Bea-kZlB2GEgEXEu43G-BX9s; expires=Tue, 14-Apr-2026 14:45:52 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax, NID=525=ovQyDJLYzTrdAMUPXWbgtVhoQYEv0grdVmsTIrUBdqx85bewfuWCwbJAcmLpECLrpAT1Rcg-pEeCHmf8Vhc31c6FaekkJjwd1SW8KWwlZqkwwyWw7_qqTbtqw2eunyVhysLGEpk_vX_0jvEf4mfz3cBGmdAI-TjT9B1VzmhQ5wm5jRCQbweGjX5S3hF_TLF_Sq1qTTJzQ6U2gXcMHEw; expires=Fri, 17-Apr-2026 14:45:52 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
