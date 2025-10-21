@@ -1,4 +1,4 @@
 import os
 
 def scan():
-    os.open
+    os.O_CREAT("")
