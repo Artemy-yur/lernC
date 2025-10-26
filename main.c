@@ -3,16 +3,17 @@
 #define CLOSE return 0
 int main(void)
 {
-    int massa_caida[] = {123, 212, 521, 522, 5112};
-    int a, sum;
+    int x, s = 0;
 
-    size_t n = sizeof(massa_caida)/sizeof(massa_caida[0]);
+    for(int i = 1; i <= 10; ++i)
+        for(int j = 7; j >= 5;--j){
+            if(i-j > 0)
+                goto exit_sum;
+            s += i-j;
 
-    for(int i=0;i<n;i++){
-        printf("%d \n",massa_caida[i]);
-    }
-    
+        }
 
-    printf("%d",n);
+    exit_sum:printf("s = %d\n", s);
+
     CLOSE;
 }
