@@ -1,19 +1,33 @@
 #include <stdio.h>
-#include <string.h>
-#define CLOSE return 0
-int main(void)
+
+#define TOTAL 13
+#define LEN size_t byts_mar = sizeof(corrds) / sizeof(corrds[0])
+
+int month[] = {31, 28, 31, 31, 31, 31, 31, 31, 31, 31, 30, 31};
+
+main(void)
 {
-    int x, s = 0;
+    int makr[TOTAL] = {1, 2, 4, 5, 62, 7, 3, 12, 512, 51, 0, 0, 0};
+    int ar[12] = {11, 2, 4, 2, 52, 52, 1};
+    short corrds[] = {120, -22, 20};
+    size_t size_ar;
 
-    for(int i = 1; i <= 10; ++i)
-        for(int j = 7; j >= 5;--j){
-            if(i-j > 0)
-                goto exit_sum;
-            s += i-j;
+    
 
-        }
 
-    exit_sum:printf("s = %d\n", s);
+    makr[1] = 12;
+    makr[12] = 1000 - 7;
+    makr[5] = 52;
+    makr[4] = 42;
 
-    CLOSE;
+    LEN;
+
+    for (size_t i = 0; i < byts_mar; i++)
+    {
+        printf("[%d] = %d\n", i, corrds[i]);
+    }
+
+    printf("%zu", byts_mar);
+
+    return 0;
 }

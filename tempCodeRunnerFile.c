@@ -1,17 +1,16 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
 
-#define CLOSE 0
+#define CLOSE return 0
 
-int main()
+int main(void)
 {
-    int n,s;
+    int arg = 5;
+    int *ptr = NULL;
 
-    while (scanf("%d", &n) != 0)
+    if (ptr != NULL)
     {
-       printf("%d",n);
+        *ptr = 1;
     }
-    
-    return CLOSE;
+    CLOSE;
 }
