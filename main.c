@@ -1,33 +1,60 @@
 #include <stdio.h>
+#define TOTAL_MARKS 10
 
-#define TOTAL 13
-#define LEN size_t byts_mar = sizeof(corrds) / sizeof(corrds[0])
-
-int month[] = {31, 28, 31, 31, 31, 31, 31, 31, 31, 31, 30, 31};
-
-main(void)
+int main(void)
 {
-    int makr[TOTAL] = {1, 2, 4, 5, 62, 7, 3, 12, 512, 51, 0, 0, 0};
-    int ar[12] = {11, 2, 4, 2, 52, 52, 1};
-    short corrds[] = {120, -22, 20};
-    size_t size_ar;
+    int makrs[TOTAL_MARKS] = {3, 2, 5};
 
-    
-
-
-    makr[1] = 12;
-    makr[12] = 1000 - 7;
-    makr[5] = 52;
-    makr[4] = 42;
-
-    LEN;
-
-    for (size_t i = 0; i < byts_mar; i++)
+    int index = 2;
+    // поставление элемента
+    for (int i = TOTAL_MARKS - 1; i > index; --i)
     {
-        printf("[%d] = %d\n", i, corrds[i]);
+        makrs[i] = makrs[i - 1];
+        printf("[%d]= new[%d]\n", i, i - 1);
     }
+    makrs[index] = 4;
 
-    printf("%zu", byts_mar);
+    for (int i = 0; i < TOTAL_MARKS; i++)
+    {
+        printf("%d ", makrs[i]);
+    }
+    // Удаление элемента
+    int del_indx = 3;
+    for (int i = del_indx; i < TOTAL_MARKS - 1; ++i)
+    {
+        makrs[i] = makrs[i + 1];
+        printf("[%d]= new[%d]\n", i, i + 1);
+    }
+    for (int i = 0; i < TOTAL_MARKS; i++)
+    {
+        printf("%d ", makrs[i]);
+    }
+printf("\n");
+    // Сортировка
+    char a[] = {1, 2, -22, 51, 12, -12, 1488, -1243};
+    int size = sizeof(a) / sizeof(*a);
+    int pos;
 
+    for (int i = 0; i < size; i++)
+    {
+        pos = i;
+        for (int j = i + 1; j < size; j++)
+        {
+            if (a[pos] > a[j])
+            {
+                pos = j;
+            }
+        }
+        if (pos != i)
+        {
+            int t = a[i];
+            a[i] = a[pos];
+            a[pos] = t;
+        }
+    }
+    for (int i = 0; i < size; i++)
+    {
+        printf("[%d] = %d",i,a[i]);
+    }
     return 0;
 }

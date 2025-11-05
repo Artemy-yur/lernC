@@ -67,8 +67,8 @@
   },
   "explorerExclude.backup": {},
   "files.associations": {
-    "*.embeddedhtml": "html",
     "*.go": "go",
+    "*.embeddedhtml": "html",
     "stdbool.h": "c",
     "stdio.h": "c",
     "string.h": "c",
@@ -78,7 +78,8 @@
     "stdlib.h": "c",
     "crtdefs.h": "c",
     "malloc.h": "c",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "windows.h": "c"
   },
   "editor.fontSize": 16
 }
