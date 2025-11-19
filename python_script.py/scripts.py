@@ -1,4 +1,8 @@
-import os
+import random
 
-def scan():
-    os.O_CREAT("")
+a = random.randint(1,10)
+def main():
+    print(type(a))
+    print(a)
+
+main()

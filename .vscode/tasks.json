@@ -2,44 +2,22 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build-current-file",
+            "label": "build C program",
             "type": "shell",
             "command": "gcc",
             "args": [
                 "-g",
-                "-O0",
-                "-Wall",
-                "${file}",
+                "main.c",
                 "-o",
-                "${fileDirname}/main.exe"
-            ],
-            "group": "build",
-            "problemMatcher": [
-                "$gcc"
-            ]
-        },
-        {
-            "type": "cppbuild",
-            "label": "C/C++: cl.exe сборка активного файла",
-            "command": "cl.exe",
-            "args": [
-                "/Zi",
-                "/EHsc",
-                "/nologo",
-                "/Fe${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "${file}"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$msCompile"
+                "main.exe"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "detail": "Задача создана отладчиком."
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }
